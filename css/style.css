@@ -14,13 +14,11 @@
 
 body {
     background-color: hsl(36, 100%, 99%);
-
 }
 
 html {
     font-size: 62.5%;
     font-family: 'Inter', sans-serif;
-
 }
 
 img {
@@ -58,7 +56,6 @@ header {
 
 .hamburger {
     cursor: pointer;
-
 }
 
 /* width 60% */
@@ -79,7 +76,7 @@ header {
     -o-transition: width .3s;
 }
 
-.nav.active{
+.nav.active {
     width: 60%;
 }
 
@@ -114,9 +111,10 @@ header {
     font-weight: bold;
 }
 
-.nav__link:hover, .nav__link:focus{
+.nav__link:hover,
+.nav__link:focus {
     opacity: .6;
-} 
+}
 
 
 /* end of header */
@@ -244,3 +242,116 @@ header {
 
 /* end of section listing  */
 
+@media(min-width:700px) {
+    .wrapper {
+        padding: 7rem;
+    }
+
+    .hamburger,
+    .close {
+        display: none;
+        visibility: hidden;
+    }
+
+    .nav {
+        width: 100%;
+        position: relative;
+        height: auto;
+        background-color: transparent;
+    }
+
+    .nav__list {
+        flex-direction: row;
+        align-items: center;
+        margin-top: 0;
+        margin-left: auto;
+    }
+
+    .nav__element {
+        padding-bottom: 0;
+        margin-right: 1rem;
+        padding: 0 1rem;
+    }
+
+    .nav__link {
+        font-weight: normal;
+    }
+
+    /* section future  */
+
+    .future__contents-container {
+        margin-top: 2rem;
+        display: flex;
+    }
+
+    .future__heading,
+    .future__contents {
+        padding: 0 1rem;
+        flex-basis: 50%;
+    }
+
+    .future__heading {
+        font-size: 4rem;
+    }
+
+    /* end of section future  */
+
+    /* section listing  */
+    .listing {
+        display: flex;
+    }
+
+    .listing__item {
+        align-items: center;
+        flex-basis: 33%;
+        justify-content: space-between;
+    }
+
+    .listing__number {
+        margin-bottom: .5rem;
+    }
+
+    .listing__item:not(:last-child) {
+        margin-bottom: 0;
+    }
+
+    .listing__contents {
+        justify-content: space-around;
+        height: 100%;
+        margin-right: 1.5rem;
+    }
+
+    /* end of section listing  */
+}
+
+@media(min-width:900px) {
+
+    .future {
+        display: flex;
+        margin-bottom: 6rem;
+    }
+
+    .future__container {
+        flex-basis: 65%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .news {
+        margin: 0 1rem;
+        flex-basis: 35%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .news__container {
+        padding-bottom: 0;
+    }
+
+    .listing__number,
+    .listing__tittle {
+        margin-bottom: 0;
+    }
+}

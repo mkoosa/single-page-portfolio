@@ -33,39 +33,45 @@
 
     <!-- section future -->
     <section class="future">
-      <picture>
-        <source media="(min-width: 700px)" srcset="/assets/images/image-web-3-desktop.jpg">
-        <img src="/assets/images/image-web-3-mobile.jpg" alt="desktop" class="future__img">
-      </picture>
-      <h1 class="future__heading">The Bright Future of Web 3.0?</h1>
-      <div class="future__contents">
-        <p class="future__text">We dive into the next evolution of the web that claims to put the power of the platforms
-          back into the hands of the
-          people.But is it really fulfilling its promise?
-        </p>
-        <button class="future__btn">read more</button>
+      <div class="future__container">
+        <picture>
+          <source media="(min-width: 700px)" srcset="/assets/images/image-web-3-desktop.jpg">
+          <img src="/assets/images/image-web-3-mobile.jpg" alt="desktop" class="future__img">
+        </picture>
+        <div class="future__contents-container">
+          <h1 class="future__heading">The Bright Future of Web 3.0?</h1>
+          <div class="future__contents">
+            <p class="future__text">We dive into the next evolution of the web that claims to put the power of the
+              platforms
+              back into the hands of the
+              people.But is it really fulfilling its promise?
+            </p>
+            <button class="future__btn">read more</button>
+          </div>
+        </div>
       </div>
+
+      <!-- aside  -->
+      <aside class="news">
+        <h2 class="news__heading">new</h2>
+        <div class="news__container">
+          <h3 class="news__subheading">Hydrogen VS Electric Cars</h3>
+          <p class="news__text">Will hydrogen-fueled cars ever catch up to EVs?</p>
+        </div>
+        <div class="news__container">
+          <h3 class="news__subheading">The Downsides of AI Artistry</h3>
+          <p class="news__text">What are the possible adverse effects of on-demand AI image generation?</p>
+        </div>
+        <div class="news__container">
+          <h3 class="news__subheading">Is VC Funding Drying Up?</h3>
+          <p class="news__text news__text--last">Private funding by VC firms is down 50% YOY. We take a look at what
+            that
+            means.</p>
+        </div>
+      </aside>
+      <!-- end of aside  -->
     </section>
     <!-- end of section future -->
-
-    <!-- aside  -->
-    <aside class="news">
-      <h2 class="news__heading">new</h2>
-      <div class="news__container">
-        <h3 class="news__subheading">Hydrogen VS Electric Cars</h3>
-        <p class="news__text">Will hydrogen-fueled cars ever catch up to EVs?</p>
-      </div>
-      <div class="news__container">
-        <h3 class="news__subheading">The Downsides of AI Artistry</h3>
-        <p class="news__text">What are the possible adverse effects of on-demand AI image generation?</p>
-      </div>
-      <div class="news__container">
-        <h3 class="news__subheading">Is VC Funding Drying Up?</h3>
-        <p class="news__text news__text--last">Private funding by VC firms is down 50% YOY. We take a look at what that
-          means.</p>
-      </div>
-    </aside>
-    <!-- end of aside  -->
 
     <!-- section listing  -->
     <section class="listing">
@@ -101,7 +107,6 @@
       </div>
     </section>
     <!-- end of section listing  -->
-
   </div>
   <script src="/js/js.js"></script>
 </body>
