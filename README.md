@@ -20,7 +20,6 @@ I should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 
 
@@ -34,5 +33,5 @@ I should be able to:
 
 ## Author- kooSa
 
-## Acknowledgments
+
 
