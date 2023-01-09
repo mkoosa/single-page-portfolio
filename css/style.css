@@ -1,0 +1,246 @@
+/* font-family: 'Inter', sans-serif; */
+
+/* common */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    list-style-type: none;
+    text-decoration: none;
+
+}
+
+body {
+    background-color: hsl(36, 100%, 99%);
+
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Inter', sans-serif;
+
+}
+
+img {
+    max-width: 100%;
+}
+
+.row {
+    display: flex;
+}
+
+/* end of common */
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 144rem;
+    padding: 1rem;
+    position: relative;
+}
+
+/* header */
+header {
+    padding: 0 0 2rem 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    transform: scale(.7);
+    margin-left: -1.1rem;
+    -webkit-transform: scale(.7);
+    -moz-transform: scale(.7);
+    -ms-transform: scale(.7);
+    -o-transform: scale(.7);
+}
+
+.hamburger {
+    cursor: pointer;
+
+}
+
+/* width 60% */
+
+.nav {
+    position: fixed;
+    width: 0%;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    transition: width .3s;
+    -webkit-transition: width .3s;
+    -moz-transition: width .3s;
+    -ms-transition: width .3s;
+    -o-transition: width .3s;
+}
+
+.nav.active{
+    width: 60%;
+}
+
+.close {
+    align-self: flex-end;
+    margin: 1.5rem 1.5rem 0 0;
+    transform: scale(.7);
+    -webkit-transform: scale(.7);
+    -moz-transform: scale(.7);
+    -ms-transform: scale(.7);
+    -o-transform: scale(.7);
+    cursor: pointer;
+}
+
+.nav__list {
+    margin-top: 10rem;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.nav__element {
+    padding-bottom: 2rem;
+
+}
+
+.nav__link {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    color: hsl(236, 13%, 42%);
+    font-weight: bold;
+}
+
+.nav__link:hover, .nav__link:focus{
+    opacity: .6;
+} 
+
+
+/* end of header */
+
+/* section future  */
+.future__heading {
+    margin: 1.5rem 0;
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+.future__text {
+    font-size: 1.5rem;
+    line-height: 1.7;
+    font-weight: 400;
+    color: hsl(236, 13%, 42%)
+}
+
+.future__btn {
+    margin: 1.5rem 0;
+    background-color: hsl(5, 85%, 63%);
+    color: hsl(36, 100%, 99%);
+    text-transform: uppercase;
+    padding: 1em 3em;
+    font-size: 1.2rem;
+    letter-spacing: .2em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color, .2s;
+    -webkit-transition: background-color, .2s;
+    -moz-transition: background-color, .2s;
+    -ms-transition: background-color, .2s;
+    -o-transition: background-color, .2s;
+    outline: none;
+}
+
+.future__btn:hover,
+.future__btn:focus-visible {
+    background-color: hsl(240, 100%, 5%);
+}
+
+.future__btnfocus:not(:focus-visible) {
+    background-color: hsl(5, 85%, 63%);
+
+}
+
+/* end of section future  */
+
+/* news  */
+.news {
+    padding: 2rem;
+    margin: 3rem 0;
+    background-color: hsl(240, 100%, 5%);
+
+}
+
+.news__heading {
+    color: hsl(35, 77%, 62%);
+    font-size: 2.7rem;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-transform: capitalize;
+}
+
+.news__container {
+    padding: 2.5rem 0;
+}
+
+
+.news__subheading {
+    font-size: 1.7rem;
+    color: hsl(36, 100%, 99%);
+}
+
+.news__text {
+    padding: 1rem 0 2rem 0;
+    color: hsl(233, 8%, 79%);
+    font-size: 1.4rem;
+    line-height: 1.6;
+    border-bottom: .1rem solid;
+}
+
+.news__text--last {
+    border: none;
+    padding-bottom: 0;
+}
+
+/* end of news  */
+
+/* section listing  */
+.listing__item:not(:last-child) {
+    margin-bottom: 2rem;
+}
+
+.img-wrapper {
+    flex-basis: 30%;
+}
+
+.listing__contents {
+    flex-basis: 70%;
+    margin-left: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.listing__number {
+    margin-bottom: 1rem;
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: hsl(233, 8%, 79%);
+}
+
+.listing__tittle {
+    margin-bottom: .5rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.listing__text {
+    font-size: 1.1rem;
+    line-height: 1.7;
+}
+
+/* end of section listing  */
+
