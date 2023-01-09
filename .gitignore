@@ -5,7 +5,7 @@
 *.xd
 .DS_Store
 .prettierignore
-*.css
+# *.css
 
 style-guide.md
 
