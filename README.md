@@ -1,17 +1,11 @@
-# Single page portfolio
+# The Task
 
-This is a solution to the [News homepage challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl). 
-
-## The Task
-
-I should be able to:
+User should be able to:
 
 - View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
 
-
-
-### Links
+## Links
 
 ## My process
 
@@ -22,7 +16,6 @@ I should be able to:
 - Flexbox
 - Mobile-first workflow
 
-
 ### What I learned
 
 - Semantic HTML5 markup
@@ -31,7 +24,6 @@ I should be able to:
 - CSS Grid
 - Mobile-first workflow
 
-## Author- kooSa
+## Author
 
-
-
+This is a solution to the [News homepage challenge on Frontend Mentor]
